@@ -1,0 +1,10 @@
+# Personal learning files — created by setup.sh, unique to each learner
+notes/
+quiz_log.md
+progress.md
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
