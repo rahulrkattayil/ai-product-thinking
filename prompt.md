@@ -175,6 +175,9 @@ The curriculum is also **expandable** — if the student wants to add topics, go
 - Four categories: data/retrieval, action, computation, agent
 - How Claude selects tools — and why descriptions matter as much as implementations
 - Two failure modes: wrong tool, hallucinated inputs
+- Tool Search Tool — Claude dynamically searches thousands of tools without loading them into context (85% token reduction vs. fixed tool lists); changes the architecture of tool-heavy agentic products
+- Programmatic Tool Calling — Claude invokes tools inside a code execution environment
+- Tool Use Examples — Anthropic's standard for demonstrating tool behaviour; how to use it to make Claude more reliable on custom tools
 
 **Topic 4: State Management Across Context Windows**
 - Three types of state: in-context, external, semantic memory
@@ -214,6 +217,7 @@ The curriculum is also **expandable** — if the student wants to add topics, go
 - How prompt caching works and what it costs
 - When caching works and when it doesn't
 - Stable prefix vs dynamic suffix design
+- Cache TTL is now up to 1 hour — how longer windows change the economics and which use cases this unlocks
 - Batch processing: the tradeoff and when to use it
 - Two questions to ask for every new AI feature
 

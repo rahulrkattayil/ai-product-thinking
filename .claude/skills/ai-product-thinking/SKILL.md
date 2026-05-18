@@ -120,7 +120,7 @@ File paths when writing locally:
 
 **Topic 2: Orchestrator vs Subagent Patterns** — what orchestrator does, why subagent focus is a feature, three failure modes, multiagent orchestration
 
-**Topic 3: Tool Use** — what a tool is, four categories, how Claude selects tools, two failure modes
+**Topic 3: Tool Use** — what a tool is, four categories, how Claude selects tools, two failure modes, Tool Search Tool (dynamic tool discovery, 85% token reduction), Programmatic Tool Calling, Tool Use Examples standard
 
 **Topic 4: State Management** — three state types, persistent memory pattern, Dreaming compaction pattern (build-it-yourself), Dreaming as managed API primitive (what it does, what it doesn't, when to use vs. roll your own), structured vs raw state
 
@@ -132,7 +132,7 @@ File paths when writing locally:
 
 **Topic 3: Latency, Cost & Model Selection** — three-way tension, model lineup, task mapping, compounding in agentic flows, latency as UX
 
-**Topic 4: Caching & Batch Processing** — how caching works, when it works, stable prefix design, batch tradeoffs, two questions per new feature
+**Topic 4: Caching & Batch Processing** — how caching works, when it works, stable prefix design, cache TTL now up to 1 hour (new economics and use cases), batch tradeoffs, two questions per new feature
 
 ### CHAPTER 5: Safety, Trust & Responsible AI Product Design
 
